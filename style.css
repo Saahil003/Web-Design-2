@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.nav{
+    height: 7rem;
+    width: 100%;
+    border: 1px solid black;
+   background-image:  linear-gradient(to right,#0c2041,#0483a4);
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.logo{
+    height: 5rem;
+    width: 12rem;
+    border: 1px solid transparent;
+    margin-right: 65rem;
+    background: url(./asset/logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-size: larger;
+    
+}
+.menu>ul{
+    height: 4rem;
+    width: 50%;
+    border: 1px solid transparent;
+    margin-left: 43rem;
+    margin-top: -5.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+    color: white ;
+    list-style: none;
+    font-size: large;
+   font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.home{
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+
+
+
+.banner{
+    height: 38rem;
+    width: 100%;
+    border: 1px solid  #0483a4;
+    margin-top: 1.2rem;
+    background: url(./asset/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.heading{
+    height: 40%;
+    width: 50%;
+    border: 1px solid  transparent;
+    margin-left: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #09dbf7;
+    font-size: 55px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.tour{
+    height: 5rem;
+    width: 50%;
+    border: 1px solid transparent;
+    margin-left: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top:-6.5rem;
+    font-size: 55px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn{
+    height: 2.5rem;
+    width: 8rem;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    background-color: #f5540b;
+    color: white;
+    margin-left: 43.5rem;
+    margin-top: 1rem;
+    font-weight: bold;
+
+}
+.find{
+    height: 2.5rem;
+    width: 13rem;
+    border: 1px solid white;
+    margin-left: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fffffe;
+    color: #3a525c;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+
+.main-booking{
+    height: 16.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.booking{
+    height: 100%;
+    width: 88%;
+    border: 0.5px solid grey;
+    background-color: #fffffe;
+    display: FLEX;
+    justify-content: space-evenly;
+   
+
+
+}
+
+.submit{
+    height: 3rem;
+    width: 15rem;
+    color: white;
+    background-color: #f05910;
+ 
+    font-weight: bold;
+    border-radius: 2px;
+   
+}
+.first{
+    height: 100%;
+    width: 25%;
+    border: 1px solid black;
+}
+
+
+.second{
+    height: 100%;
+    width: 25%;
+    border: 1px solid black;
+}
+
+.third{
+    height: 100%;
+    width: 25%;
+    border: 1px solid black;
+}
+
